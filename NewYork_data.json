@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="description" content="New York University Libraries' portal for maps and GIS data discovery." />
+  <meta name="keywords" content="NYU,GIS,maps,geospatial data,raster,georeferenced,georectified,New York University,Bobst,library,GeoBlacklight">
+
+  <!-- Mobile viewport optimization h5bp.com/ad -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <!-- Internet Explorer use the highest version available -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+  <!--[if IEMobile]>
+  <meta http-equiv="cleartype" content="on">
+  <![endif]-->
+
+  <title>2014 New York City Neighborhood Names - NYU Spatial Data Repository</title>
+  <link href="https://geo.nyu.edu/catalog/opensearch.xml" title="NYU Spatial Data Repository" type="application/opensearchdescription+xml" rel="search" />
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-1fa424a8a7b116b0ba44c56ec19886c5ccd8a9fc08815047ac70d2c5f6523a9b.ico" />
+  <link rel="stylesheet" media="all" href="/assets/application-095f33e20018192fe84b132b37324a2ae44f36a7bc38f4d75b18c4482d9c7133.css" />
+  <script src="/assets/application-361903240797532963435f88d025b667f9bbe681d9a3d09459dbd6518d31401a.js"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="vVNA5lY5yAHM5/jRYx5PfQCDgrZlySkR+P1RzulvHcnG/ivV/XfMQfWqH/4UrjA4IkqPLLoaaM2k+3fbtdGrnQ==" />
+  <link rel="alternate" title="xml" type="application/xml" href="https://geo.nyu.edu/catalog/nyu-2451-34572.xml" />
+<link rel="alternate" title="dc_xml" type="text/xml" href="https://geo.nyu.edu/catalog/nyu-2451-34572.dc_xml" />
+<link rel="alternate" title="oai_dc_xml" type="text/xml" href="https://geo.nyu.edu/catalog/nyu-2451-34572.oai_dc_xml" />
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="blacklight-catalog blacklight-catalog-show">
+<div id="nyu-all-site">
+  <div id="nyu-sdr-content">
+    <div id="header-navbar" class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#user-util-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img data-svg-fallback="/assets/real250-c393c31c117191fd87d686168c6784ecb75159bec4969597b4b0d56e6ddcbc11.png" alt="NYU Spatial Data Repository" src="/assets/sdr-f542bf0c8e632c61956b690fb0bf79e2466538f9dc3993e2be7e19b776352b20.svg" /></a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="user-util-collapse">
+      <div class="navbar-right">
+  <ul class="nav navbar-nav">
+		<li>
+        <a href="http://metadata.geo.nyu.edu/deposit">Submit</a>
+      </li>
+    
+      <li><a href="/search_history">History</a>
+</li>
+  </ul>
+
+    <ul class="nav navbar-nav">
+      <li>
+        <a href="/login">Login</a>
+      </li>
+      </ul>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+    <div id="ajax-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal menu" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+
+    <div id="main-container" class="container" data-analytics-id="UA-70085768-1">
+      <h1 class="sr-only application-heading">NYU Spatial Data Repository</h1>
+      <div class="row">
+  <div class="col-md-12">
+    <div id="main-flashes">
+      <div class="flash_messages">
+</div>
+
+    </div>
+  </div>
+</div>
+
+      <div class="row">
+        <div id="content" class="col-md-9 col-sm-8 show-document">
+  <div id='previousNextDocument' class='pagination-search-widgets'>
+</div>
+
+
+
+<div id="document" class="document " itemscope  itemtype="http://schema.org/Dataset">
+  <div id="doc_nyu-2451-34572">
+    <h2>
+  <span itemprop="name">2014 New York City Neighborhood Names</span>
+  <small>
+    <span class="geoblacklight-icon geoblacklight-point" title="Point"></span>
+<span class="geoblacklight-icon geoblacklight-nyu" title="NYU"></span>
+<span class="geoblacklight-icon geoblacklight-public" title="Public"></span>
+  </small>
+</h2>
+
+<div class="geoblacklight-view-panel">
+
+  <dl class="dl-horizontal">
+        <dt class="blacklight-dc_description_s">Description:</dt>
+        <dd class="blacklight-dc_description_s"><div class="truncate-abstract">This New York City Neighborhood Names point file was created as a guide to New York City’s neighborhoods that appear  on the web resource, “New York: A City of Neighborhoods.” Best estimates of label centroids were established at a 1:1,000 scale, but are ideally viewed at a 1:50,000 scale.</div></dd>
+        <dt class="blacklight-dc_publisher_s">Publisher:</dt>
+        <dd class="blacklight-dc_publisher_s"><span itemprop="publisher"><a href="/?f%5Bdc_publisher_s%5D%5B%5D=New+York+%28City%29.+Department+of+City+Planning">New York (City). Department of City Planning</a></span></dd>
+        <dt class="blacklight-dct_ispartof_sm">Collection:</dt>
+        <dd class="blacklight-dct_ispartof_sm"><span itemprop="isPartOf"><a href="/?f%5Bdct_isPartOf_sm%5D%5B%5D=Bytes+of+the+Big+Apple">Bytes of the Big Apple</a></span></dd>
+        <dt class="blacklight-dct_spatial_sm">Place(s):</dt>
+        <dd class="blacklight-dct_spatial_sm"><span itemprop="spatial"><a href="/?f%5Bdct_spatial_sm%5D%5B%5D=New+York%2C+New+York%2C+United+States">New York, New York, United States</a></span></dd>
+        <dt class="blacklight-dc_subject_sm">Subject(s):</dt>
+        <dd class="blacklight-dc_subject_sm"><span itemprop="keywords"><a href="/?f%5Bdc_subject_sm%5D%5B%5D=Neighborhoods">Neighborhoods</a></span>, <span itemprop="keywords"><a href="/?f%5Bdc_subject_sm%5D%5B%5D=Neighborhood+planning">Neighborhood planning</a></span>, and <span itemprop="keywords"><a href="/?f%5Bdc_subject_sm%5D%5B%5D=Communities">Communities</a></span></dd>
+        <dt class="blacklight-nyu_addl_format_sm">Format(s):</dt>
+        <dd class="blacklight-nyu_addl_format_sm"><span itemprop="formats"><a href="/?f%5Bnyu_addl_format_sm%5D%5B%5D=Shapefile">Shapefile</a></span></dd>
+        <dt class="blacklight-dct_temporal_sm">Year(s):</dt>
+        <dd class="blacklight-dct_temporal_sm"><span itemprop="temporal">2014</span></dd>
+        <dt class="blacklight-dct_provenance_s">Held by:</dt>
+        <dd class="blacklight-dct_provenance_s"><a href="/?f%5Bdct_provenance_s%5D%5B%5D=NYU">NYU</a></dd>
+      <dt>Preservation record:</dt>
+      <dd itemprop="url"><a href="http://hdl.handle.net/2451/34572">http://hdl.handle.net/2451/34572</a></dd>
+  </dl>
+</div>
+
+
+<div class='row'>
+  <div id='viewer-container' class="col-md-12">
+  <div id="map" data-map="item" data-protocol="Wms" data-url="https://maps-public.geo.nyu.edu/geoserver/sdr/wms" data-layer-id="sdr:nyu_2451_34572" data-map-bbox="-74.2465693423528 40.5053337611564 -73.7088470588925 40.9085428295067" data-catalog-path="/catalog" data-available="true" data-inspect="true" data-basemap="positronLite" data-leaflet-options="{&quot;MAP&quot;:null,&quot;LAYERS&quot;:{&quot;DETECT_RETINA&quot;:true},&quot;VIEWERS&quot;:{&quot;WMS&quot;:{&quot;CONTROLS&quot;:[&quot;Opacity&quot;,&quot;Fullscreen&quot;]},&quot;TILEDMAPLAYER&quot;:{&quot;CONTROLS&quot;:[&quot;Opacity&quot;,&quot;Fullscreen&quot;]},&quot;FEATURELAYER&quot;:{&quot;CONTROLS&quot;:[&quot;Opacity&quot;,&quot;Fullscreen&quot;]},&quot;DYNAMICMAPLAYER&quot;:{&quot;CONTROLS&quot;:[&quot;Opacity&quot;,&quot;Fullscreen&quot;]},&quot;IMAGEMAPLAYER&quot;:{&quot;CONTROLS&quot;:[&quot;Opacity&quot;,&quot;Fullscreen&quot;]}}}">
+</div></div>
+
+</div>
+<div class='row'>
+    <div id='table-container' class='col-md-12'>
+    <table id="attribute-table" class="table table-hover table-condensed table-responsive table-striped table-bordered col-md-12">
+      <thead>
+        <tr>
+          <th>Variable</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody class='attribute-table-body'>
+        <tr>
+          <td class='default-text' colspan='2'><em>Click object on map to see data values</em></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+<div class='row'>
+  <div class='viewer-information col-md-4'>
+</div>
+
+</div>
+
+  </div>
+</div>
+
+
+</div>
+
+<div id="sidebar" class="col-md-3 col-sm-4">
+     <div class="panel panel-default show-tools">
+    <div class="panel-heading">
+      <h3 class="h5">Tools</h3>
+    </div>
+
+    <div class="panel-body">
+      <ul class="nav">
+        
+          <li class="email">
+            <a id="emailLink" data-ajax-modal="trigger" href="/catalog/nyu-2451-34572/email">
+    <span class="geoblacklight geoblacklight-email"></span>
+    Email
+</a>
+          </li>
+
+          <li class="web_services">
+            <a id="web_servicesLink" data-ajax-modal="trigger" href="/catalog/nyu-2451-34572/web_services">
+    <span class="geoblacklight geoblacklight-web_services"></span>
+    Web services
+</a>
+          </li>
+
+          <li class="exports">
+                <a target="_blank" href="http://oneclick.cartodb.com/?file=https%3A%2F%2Fmaps-public.geo.nyu.edu%2Fgeoserver%2Fsdr%2Fwfs%2F%3Fservice%3Dwfs%26version%3D2.0.0%26request%3DGetFeature%26srsName%3DEPSG%253A4326%26outputformat%3Dapplication%252Fjson%26typeName%3Dsdr%253Anyu_2451_34572&amp;provider=NYUSpatialDataRepository&amp;logo=https%3A%2F%2Fgeo.nyu.edu%2Fassets%2Freal250-c393c31c117191fd87d686168c6784ecb75159bec4969597b4b0d56e6ddcbc11.png">
+    <span class='geoblacklight geoblacklight-carto'></span>Open in Carto
+</a>
+          </li>
+
+          <li class="data_dictionary">
+            
+          </li>
+
+          <li class="downloads">
+            
+          </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+    <div class="panel panel-default downloads">
+      <div class="panel-heading">
+        <h3 class="h5">Download(s)</h3>
+      </div>
+
+      <ul class="list-group list-group-flush">
+        
+  <li class="list-group-item download">
+  <div class="download-link-container"><a contentUrl="https://archive.nyu.edu/retrieve/74586/nyu_2451_34572.zip" class="btn btn-primary btn-block download download-original" data-download="trigger" data-download-type="direct" data-download-id="nyu-2451-34572" href="https://archive.nyu.edu/retrieve/74586/nyu_2451_34572.zip">Shapefile</a></div>
+</li>
+
+
+
+
+      </ul>
+    </div>
+
+    <div class="panel panel-default exports">
+      <div class="panel-heading">
+        <h3 class="h5">Other Formats</h3>
+      </div>
+
+      <ul class="list-group list-group-flush">
+        
+  <li class="list-group-item export">
+  <div class="export-label">Derived Shapefile</div>
+  <div class="export-link-container"><a class="btn btn-primary btn-block download download-generated" data-download-path="/download/nyu-2451-34572?type=shapefile" data-download="trigger" data-download-type="shapefile" data-download-id="nyu-2451-34572" href="">Download</a></div>
+</li>
+
+  <li class="list-group-item export">
+  <div class="export-label">KMZ</div>
+  <div class="export-link-container"><a class="btn btn-primary btn-block download download-generated" data-download-path="/download/nyu-2451-34572?type=kmz" data-download="trigger" data-download-type="kmz" data-download-id="nyu-2451-34572" href="">Download</a></div>
+</li>
+
+  <li class="list-group-item export">
+  <div class="export-label">GeoJSON</div>
+  <div class="export-link-container"><a class="btn btn-primary btn-block download download-generated" data-download-path="/download/nyu-2451-34572?type=geojson" data-download="trigger" data-download-type="geojson" data-download-id="nyu-2451-34572" href="">Download</a></div>
+</li>
+
+
+      </ul>
+    </div>
+
+
+
+<div data-relations="true" data-url="/catalog/nyu-2451-34572"></div>
+</div>
+
+      </div>
+    </div>
+  </div>
+  <footer role='contentinfo'>
+  <div id='footer-container'>
+    <div id='footer'>
+      <div id='footer-links' class='span2'>
+        <ul>
+          <li><a href='http://library.nyu.edu'>New York University Libraries</a></li>
+          <li><a href='http://guides.nyu.edu/dataservices'>Data Services</a></li>
+          <li><a href='http://guides.nyu.edu/appointment'>Contact Us</a></li>
+
+        </ul>
+      </div>
+      <div id='nyu-data-services-img' class='span2'>
+        <img alt="" height="30" src="/assets/dss_newlogo1-short-sz-b17d84a0fc4a0b9e8916656cd9fb447b14122021e2f992343f48fc9d1c7986b7.png" />
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-XkdvnY4XAps/ohU58xyeZCv2463I3ZTnOhwzle5VPdwFw9Eh/ZfNvhlTgf4H9K7RPiRXW3oGu7CuNk9QiENAFQ==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-b003e0a30d85cc60f5920a4b6ff04123.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-J91Qhea0f13DaSjx3AXXGO3viFpQAPPnpVDE8Umc73sXEtrah52Hq277J1yN+ALwl/RwH5VQ/Ntc0756LZy/7w==" rel="stylesheet" href="https://github.githubassets.com/assets/site-d20aa35917cf810095fab7458ea2a8e4.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-+EeonPFJPOixSBlN5rTxrzh6vdTLNhknT6HivFp5j4d25wXRkAV0J5LtGSOnUvDdYd5M4r+WcOfulwVw0yLa+Q==" rel="stylesheet" href="https://github.githubassets.com/assets/github-69306aac5d15cf59cad51421acb1bc7d.css" />
+    
+    
+    
+    
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - IBM/ibm-cos-sdk-python: ibm-cos-sdk-python</title>
+    <meta name="description" content="ibm-cos-sdk-python. Contribute to IBM/ibm-cos-sdk-python development by creating an account on GitHub.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    <meta name="twitter:image:src" content="https://avatars0.githubusercontent.com/u/1459110?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="IBM/ibm-cos-sdk-python" /><meta name="twitter:description" content="ibm-cos-sdk-python. Contribute to IBM/ibm-cos-sdk-python development by creating an account on GitHub." />
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/1459110?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="IBM/ibm-cos-sdk-python" /><meta property="og:url" content="https://github.com/IBM/ibm-cos-sdk-python" /><meta property="og:description" content="ibm-cos-sdk-python. Contribute to IBM/ibm-cos-sdk-python development by creating an account on GitHub." />
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="B122:35574:AFF3600:10D0C0ED:5D88C1FC" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="B122:35574:AFF3600:10D0C0ED:5D88C1FC" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="1489524389585666557" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="YWM4YTVjNmY4OTlhM2M2MDhmNmJmMTk0OWZlOGYwMGNkNjAxYmM2MWIxOTM5ODEzOTRhYzUxZTM3Y2FjNDJmNXx7InJlbW90ZV9hZGRyZXNzIjoiODEuMTAwLjI1MC45MyIsInJlcXVlc3RfaWQiOiJCMTIyOjM1NTc0OkFGRjM2MDA6MTBEMEMwRUQ6NUQ4OEMxRkMiLCJ0aW1lc3RhbXAiOjE1NjkyNDM2NDUsImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+    <meta name="enabled-features" content="ACTIONS_V2_ON_MARKETPLACE,MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS">
+
+  <meta name="html-safe-nonce" content="9ca544d8ea71c39d1a1fab1b2474facb170777be">
+
+  <meta http-equiv="x-pjax-version" content="24f9801158fdd88174c0e209f697754a">
+  
+
+      <link href="https://github.com/IBM/ibm-cos-sdk-python/commits/master.atom" rel="alternate" title="Recent Commits to ibm-cos-sdk-python:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/IBM/ibm-cos-sdk-python git https://github.com/IBM/ibm-cos-sdk-python.git">
+
+  <meta name="octolytics-dimension-user_id" content="1459110" /><meta name="octolytics-dimension-user_login" content="IBM" /><meta name="octolytics-dimension-repository_id" content="102955800" /><meta name="octolytics-dimension-repository_nwo" content="IBM/ibm-cos-sdk-python" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="102955800" /><meta name="octolytics-dimension-repository_network_root_nwo" content="IBM/ibm-cos-sdk-python" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/IBM/ibm-cos-sdk-python" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production min-width-lg">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+        <header class="Header-old header-logged-out  position-relative f4 py-2" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        </a>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out d-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-none">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        </button>
+      </div>
+
+        <nav class="mt-0" aria-label="Global">
+          <ul class="d-flex list-style-none">
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0  p-4 left-n4 position-absolute">
+                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none f5 pb-3">
+                      <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
+                      <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
+                      <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
+                      <li class="edge-item-fix"><a href="/features/actions" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Actions">Actions</a>
+                          <li class="edge-item-fix"><a href="/features/package-registry" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Package Registry">Package registry</a>
+
+                          <li class="edge-item-fix"><a href="/features/security" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Security">Security</a>
+
+                      <li class="edge-item-fix"><a href="/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
+                      <li class="edge-item-fix"><a href="/features#social-coding" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Social coding">Social coding</a></li>
+                      <li class="edge-item-fix"><a href="/features#documentation" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Documentation">Documentation</a></li>
+                      <li class="edge-item-fix"><a href="/features#code-hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Code hosting</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/customer-stories" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+              <li class=" mr-3 mr-lg-3">
+                <a href="/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a>
+              </li>
+
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0  p-4 left-n4 position-absolute">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Learn &amp; contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
+                        <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class=" mr-3 mr-lg-3">
+                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0  p-4 left-n4 position-absolute">
+                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare plans">Compare plans</a></li>
+                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Contact Sales">Contact Sales</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0  border-top pt-3">
+                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex flex-items-center px-0 text-center text-left">
+          <div class="d-lg-flex ">
+            <div class="header-search mr-3 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="102955800" data-scoped-search-url="/IBM/ibm-cos-sdk-python/search" data-unscoped-search-url="/search" action="/IBM/ibm-cos-sdk-python/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=yq96s24dMYTO/jo0n4G6F5e1vSjsNPzPi/tTdVtoGRply5fddufs7OEX53pdZIO4qyUVy8sETB2+7c3023FzlA=="
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <a href="/login?return_to=%2FIBM%2Fibm-cos-sdk-python"
+          class="HeaderMenu-link no-underline mr-3"
+          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;B122:35574:AFF3600:10D0C0ED:5D88C1FC&quot;,&quot;originating_url&quot;:&quot;https://github.com/IBM/ibm-cos-sdk-python&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c5f5e0e5a2e674954a7f2a3a1c02b68d41717c25c281215677768f0fb2aa7b25"
+          data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
+          Sign&nbsp;in
+        </a>
+          <a href="/join"
+            class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;B122:35574:AFF3600:10D0C0ED:5D88C1FC&quot;,&quot;originating_url&quot;:&quot;https://github.com/IBM/ibm-cos-sdk-python&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c5f5e0e5a2e674954a7f2a3a1c02b68d41717c25c281215677768f0fb2aa7b25"
+            data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
+            Sign&nbsp;up
+          </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+    <div id="js-flash-container">
+
+</div>
+
+
+
+  <div class="application-main " data-commit-hovercards-enabled>
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main id="js-repo-pjax-container" data-pjax-container >
+      
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+
+
+
+
+  <li>
+    
+  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;B122:35574:AFF3600:10D0C0ED:5D88C1FC&quot;,&quot;originating_url&quot;:&quot;https://github.com/IBM/ibm-cos-sdk-python&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d2a7b4f14cb3081cc88916ceae7b814dc2a87f61a1d734cf5d651e4f5c5d5810" href="/login?return_to=%2FIBM%2Fibm-cos-sdk-python">
+    <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+</a>    <a class="social-count" href="/IBM/ibm-cos-sdk-python/watchers"
+       aria-label="16 users are watching this repository">
+      16
+    </a>
+
+  </li>
+
+  <li>
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:102955800,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;B122:35574:AFF3600:10D0C0ED:5D88C1FC&quot;,&quot;originating_url&quot;:&quot;https://github.com/IBM/ibm-cos-sdk-python&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="faee5a1ebf4fbecf3533dc18f9c2e8cf44a93b7e01ce36da4e56cf09763f59c1" href="/login?return_to=%2FIBM%2Fibm-cos-sdk-python">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
+    <a class="social-count js-social-count" href="/IBM/ibm-cos-sdk-python/stargazers"
+      aria-label="17 users starred this repository">
+      17
+    </a>
+
+  </li>
+
+  <li>
+      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:102955800,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;B122:35574:AFF3600:10D0C0ED:5D88C1FC&quot;,&quot;originating_url&quot;:&quot;https://github.com/IBM/ibm-cos-sdk-python&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d3919303046088de25b89046e8040c0fcf18349ffd7defd449eefd8069128654" href="/login?return_to=%2FIBM%2Fibm-cos-sdk-python">
+        <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+</a>
+    <a href="/IBM/ibm-cos-sdk-python/network/members" class="social-count"
+       aria-label="15 users forked this repository">
+      15
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+    <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/IBM/hovercard" href="/IBM">IBM</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/IBM/ibm-cos-sdk-python">ibm-cos-sdk-python</a></strong>
+  
+
+</h1>
+
+    </div>
+    
+<nav class="hx_reponav reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+    aria-label="Repository"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /IBM/ibm-cos-sdk-python" href="/IBM/ibm-cos-sdk-python">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /IBM/ibm-cos-sdk-python/issues" href="/IBM/ibm-cos-sdk-python/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">2</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /IBM/ibm-cos-sdk-python/pulls" href="/IBM/ibm-cos-sdk-python/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /IBM/ibm-cos-sdk-python/projects" href="/IBM/ibm-cos-sdk-python/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy code_scanning /IBM/ibm-cos-sdk-python/security/advisories" href="/IBM/ibm-cos-sdk-python/security/advisories">
+      <svg class="octicon octicon-shield" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"/></svg>
+      Security
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people /IBM/ibm-cos-sdk-python/pulse" href="/IBM/ibm-cos-sdk-python/pulse">
+      <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+      Insights
+</a>
+
+</nav>
+
+
+  </div>
+<div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  px-3">
+  <div class="repository-content ">
+
+    
+    
+        <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/prompt_dismissals/signup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="6fYcnGH/5PpPzMvKUSYPtn2vk+3pNlRaiL08zJHYzHEnpLnfkFVaeLmztNWPc9IqPILZ5O+Qf0i7oD8bZz6T+A==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.</p>
+          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;B122:35574:AFF3600:10D0C0ED:5D88C1FC&quot;,&quot;originating_url&quot;:&quot;https://github.com/IBM/ibm-cos-sdk-python&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="360358c4766aee97e32f468f31cf7fb990baa041023cd8c770f81db25d68739b" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-code">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="mb-3">  <div class="f4">
+        <span class="text-gray-dark mr-2" itemprop="about">
+          ibm-cos-sdk-python
+        </span>
+  </div>
+</div>
+
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/IBM/ibm-cos-sdk-python/commits/master">
+            <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+            <span class="num text-emphasized">
+              995
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/IBM/ibm-cos-sdk-python/branches">
+          <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          <span class="num text-emphasized">
+            3
+          </span>
+          branches
+        </a>
+      </li>
+
+        <li>
+          <a data-pjax href="/IBM/ibm-cos-sdk-python/packages" data-ga-click="Repository, packages click, location:repo overview">
+            <svg class="octicon octicon-package" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1 4.27v7.47c0 .45.3.84.75.97l6.5 1.73c.16.05.34.05.5 0l6.5-1.73c.45-.13.75-.52.75-.97V4.27c0-.45-.3-.84-.75-.97l-6.5-1.74a1.4 1.4 0 0 0-.5 0L1.75 3.3c-.45.13-.75.52-.75.97zm7 9.09l-6-1.59V5l6 1.61v6.75zM2 4l2.5-.67L11 5.06l-2.5.67L2 4zm13 7.77l-6 1.59V6.61l2-.55V8.5l2-.53V5.53L15 5v6.77zm-2-7.24L6.5 2.8l2-.53L15 4l-2 .53z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            packages
+          </a>
+
+        </li>
+
+      <li>
+        <a href="/IBM/ibm-cos-sdk-python/releases">
+          <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+          <span class="num text-emphasized">
+            28
+          </span>
+          releases
+        </a>
+      </li>
+
+
+        <li >
+            <include-fragment src="/IBM/ibm-cos-sdk-python/contributors_size">
+              <a href="/IBM/ibm-cos-sdk-python/graphs/contributors">
+                <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4z"/></svg>
+                <span class="num text-emphasized"></span>
+                Fetching contributors
+              </a>
+</include-fragment>        </li>
+
+        <li>
+          <a href="/IBM/ibm-cos-sdk-python/blob/master/LICENSE">
+            <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+              Apache-2.0
+          </a>
+        </li>
+    </ul>
+  </div>
+
+    <details class="details-reset">
+      <summary title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+        <div class="d-flex repository-lang-stats-graph">
+            <span class="language-color" aria-label="Python 100.0%" style="width:100.0%; background-color:#3572A5;" itemprop="keywords">Python</span>
+        </div>
+      </summary>
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/IBM/ibm-cos-sdk-python/search?l=python"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#3572A5;"></span>
+                <span class="lang">Python</span>
+                <span class="percent">100.0%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </details>
+
+
+
+
+
+
+  <div class="file-navigation in-mid-page d-flex flex-items-start">
+  
+<details class="details-reset details-overlay select-menu branch-select-menu  hx_rsm" id="branch-select-menu">
+  <summary class="btn btn-sm select-menu-button css-truncate"
+           data-hotkey="w"
+           title="Switch branches or tags">
+    <i>Branch:</i>
+    <span class="css-truncate-target" data-menu-button>master</span>
+  </summary>
+
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/IBM/ibm-cos-sdk-python/ref-list/master?source_action=disambiguate&amp;source_controller=files" preload>
+    <include-fragment class="select-menu-loading-overlay anim-pulse">
+      <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
+    </include-fragment>
+  </details-menu>
+</details>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb flex-auto">
+    
+  </div>
+
+  <div class="BtnGroup">
+
+    <a class="btn btn-sm empty-icon float-right BtnGroup-item" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:102955800,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;B122:35574:AFF3600:10D0C0ED:5D88C1FC&quot;,&quot;originating_url&quot;:&quot;https://github.com/IBM/ibm-cos-sdk-python&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="05960710082dcef1b130286ae58e183facbd22b5d66e2ad9585b61e34d4b724f" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/IBM/ibm-cos-sdk-python/find/master">Find File</a>
+  </div>
+
+
+    
+
+    <details class="get-repo-select-menu js-get-repo-select-menu js-anon-get-repo-select-menu position-relative details-overlay details-reset">
+  <summary class="btn btn-sm ml-2 btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;repository_id&quot;:102955800,&quot;target&quot;:&quot;CLONE_OR_DOWNLOAD_BUTTON&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;B122:35574:AFF3600:10D0C0ED:5D88C1FC&quot;,&quot;originating_url&quot;:&quot;https://github.com/IBM/ibm-cos-sdk-python&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f2d87b27920863a641fb22f98e9610b4d76409574b14a16d49c50b7ba43454d5">
+    Clone or download
+    <span class="dropdown-caret"></span>
+</summary>  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm" data-autoselect value="https://github.com/IBM/ibm-cos-sdk-python.git" aria-label="Clone this repository at https://github.com/IBM/ibm-cos-sdk-python.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy value="https://github.com/IBM/ibm-cos-sdk-python.git" aria-label="Copy to clipboard" class="btn btn-sm" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;COPY_URL&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:102955800,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;B122:35574:AFF3600:10D0C0ED:5D88C1FC&quot;,&quot;originating_url&quot;:&quot;https://github.com/IBM/ibm-cos-sdk-python&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0539ea1764ba48a6036c4efd5b5335c5d0eeca8e9ea8424bc0810135df0bcaa3"><svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg></clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a class="btn btn-outline get-repo-btn js-anon-download-zip-link " rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;DOWNLOAD_ZIP&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:102955800,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;B122:35574:AFF3600:10D0C0ED:5D88C1FC&quot;,&quot;originating_url&quot;:&quot;https://github.com/IBM/ibm-cos-sdk-python&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6a0dcf85545bd8e6a9eccf51ba81486913d789edb14ad99ea624b0b81218e945" data-ga-click="Repository, download zip, location:repo overview" href="/IBM/ibm-cos-sdk-python/archive/master.zip">Download ZIP</a>
+
+        </div>
+      </div>
+
+        <div class="js-modal-downloading" hidden>
+          <div class="py-2 px-3">
+            <h4 class="lh-condensed mb-3">Downloading<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+            <p class="text-gray">
+              Want to be notified of new releases in
+              <span class="text-bold">IBM/ibm-cos-sdk-python</span>?
+            </p>
+          </div>
+          <div class="width-full d-flex">
+            <a rel="nofollow" class="get-repo-btn btn btn-outline" style="width: 50%" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;download popover&quot;,&quot;repository_id&quot;:102955800,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;B122:35574:AFF3600:10D0C0ED:5D88C1FC&quot;,&quot;originating_url&quot;:&quot;https://github.com/IBM/ibm-cos-sdk-python&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="3e35d75aa79578510c73106a0cb4039b8f56e279bf4f3fb56e5bd423e69c8665" href="/login?return_to=https%3A%2F%2Fgithub.com%2FIBM%2Fibm-cos-sdk-python">Sign in</a>
+              <a rel="nofollow" class="get-repo-btn btn btn-primary" style="width: 50%" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;download popover&quot;,&quot;repository_id&quot;:102955800,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;B122:35574:AFF3600:10D0C0ED:5D88C1FC&quot;,&quot;originating_url&quot;:&quot;https://github.com/IBM/ibm-cos-sdk-python&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f6a966f280f10077b55b12c25d1410212dbad1e39b19e69aa1dbb6b22ce815ba" href="/join?return_to=%2FIBM%2Fibm-cos-sdk-python">Sign up</a>
+          </div>
+        </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+</div>
+
+
+  
+
+
+  <div class="commit-tease js-details-container Details d-flex rounded-top-1" data-issue-and-pr-hovercards-enabled>
+    
+<div class="AvatarStack flex-self-start AvatarStack--two">
+  <div class="AvatarStack-body" aria-label="Vjeran-Kokanovic-IBM and wbhuberIBM (non-author committer)">
+        <a class="avatar" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=54071488" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Vjeran-Kokanovic-IBM">
+          <img height="20" width="20" alt="@Vjeran-Kokanovic-IBM" src="https://avatars2.githubusercontent.com/u/54071488?s=60&amp;v=4" />
+</a>        <a class="avatar" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=31781465" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/wbhuberIBM">
+          <img height="20" width="20" alt="@wbhuberIBM" src="https://avatars2.githubusercontent.com/u/31781465?s=60&amp;v=4" />
+</a>  </div>
+</div>
+
+    <div class="flex-auto f6 mr-3">
+      
+      <a href="/IBM/ibm-cos-sdk-python/commits?author=Vjeran-Kokanovic-IBM"
+     class="commit-author tooltipped tooltipped-s user-mention"
+     aria-label="View all commits by Vjeran-Kokanovic-IBM">Vjeran-Kokanovic-IBM</a>
+
+
+   and   <a href="/IBM/ibm-cos-sdk-python/commits?author=wbhuberIBM"
+     class="commit-author tooltipped tooltipped-s user-mention"
+     aria-label="View all commits by wbhuberIBM">wbhuberIBM</a>
+
+  
+
+
+        <a data-pjax="true" title="Update version to 2.5.4.dev1" class="message text-inherit" href="/IBM/ibm-cos-sdk-python/commit/752abf7e09ce908aa5ca4fe8f97e4b099a6fd654">Update version to 2.5.4.dev1</a>
+
+    </div>
+    <div class="no-wrap d-flex flex-items-baseline">
+        <span class="mr-2 flex-self-center">
+          <include-fragment src="/IBM/ibm-cos-sdk-python/commit/752abf7e09ce908aa5ca4fe8f97e4b099a6fd654/rollup" class="d-inline"></include-fragment>
+        </span>
+      <span class="mr-1">Latest commit</span>
+      <a class="commit-tease-sha mr-1" href="/IBM/ibm-cos-sdk-python/commit/752abf7e09ce908aa5ca4fe8f97e4b099a6fd654" data-pjax>
+        752abf7
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2019-08-29T17:17:32Z">Aug 29, 2019</relative-time></span>
+    </div>
+  </div>
+
+
+
+<div class="file-wrap">
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/IBM/ibm-cos-sdk-python/tree/752abf7e09ce908aa5ca4fe8f97e4b099a6fd654">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+    <thead>
+      <tr>
+        <th><span class="sr-only">Type</span></th>
+        <th><span class="sr-only">Name</span></th>
+        <th><span class="sr-only">Latest commit message</span></th>
+        <th><span class="sr-only">Commit time</span></th>
+      </tr>
+    </thead>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="docs" id="e3e2a9bfd88566b05001b02a3f51d286-29d6b502ed872dcdec0486d30f82aaafc76a98fe" href="/IBM/ibm-cos-sdk-python/tree/master/docs">docs</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Release 2.4.3" class="link-gray" href="/IBM/ibm-cos-sdk-python/commit/88551528ccc89625fea6df8887d17d00bb5de919">Release 2.4.3</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-01-30T18:21:04Z">Jan 30, 2019</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="ibm_boto3" id="68bbf439804957478f9b5be6cd0d730a-cecead41c5049db50f5beb946746c3d70ab2968a" href="/IBM/ibm-cos-sdk-python/tree/master/ibm_boto3">ibm_boto3</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update version to 2.5.4.dev1" class="link-gray" href="/IBM/ibm-cos-sdk-python/commit/752abf7e09ce908aa5ca4fe8f97e4b099a6fd654">Update version to 2.5.4.dev1</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-08-30T01:07:46Z">Aug 30, 2019</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="scripts" id="d6c5855a62cf32a4dadbc2831f0f295f-42502819c4b6c679d43916d0fe33dbee0c0c5402" href="/IBM/ibm-cos-sdk-python/tree/master/scripts">scripts</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Release 2.5.2" class="link-gray" href="/IBM/ibm-cos-sdk-python/commit/0d543188b4f2ed1cbe4a6180c20d3dc2544c82fd">Release 2.5.2</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-07-31T14:36:44Z">Jul 31, 2019</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="tests" id="b61a6d542f9036550ba9c401c80f00ef-e9a28092aecac00304c39531b1d1f568b7bb1f29" href="/IBM/ibm-cos-sdk-python/tree/master/tests">tests</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Release 2.5.0" class="link-gray" href="/IBM/ibm-cos-sdk-python/commit/749710ca300a6bd3c145a43d8f1050d74d2a9c47">Release 2.5.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-05-28T15:45:42Z">May 28, 2019</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".coveragerc" id="6f1f859c6ca5c4cae7310924786cf661-8f244b7be8f6d6849ee7e2dc5406a4dd2cc67701" href="/IBM/ibm-cos-sdk-python/blob/master/.coveragerc">.coveragerc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Release 2.0.0" class="link-gray" href="/IBM/ibm-cos-sdk-python/commit/eec39ad46437d507b80f59750236c17b1454d49a">Release 2.0.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-12-01T04:03:30Z">Dec 1, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-bee41a4b2f58c06daf9958749c37424a52e302e0" href="/IBM/ibm-cos-sdk-python/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Added IDEA project files to the gitignore." class="link-gray" href="/IBM/ibm-cos-sdk-python/commit/38267b701b0cc0b1db8c6ce1cb43cf44917fe7e0">Added IDEA project files to the gitignore.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-01T17:35:20Z">Oct 1, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CHANGELOG.rst" id="de0a9b67ffe2874a076b5fdb15bad484-92f90e0df7ed6295976c3cae43221ca1c10656bc" href="/IBM/ibm-cos-sdk-python/blob/master/CHANGELOG.rst">CHANGELOG.rst</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Release 2.5.3" class="link-gray" href="/IBM/ibm-cos-sdk-python/commit/df4ce32461c88775f242b04d0a5d48f76752bf6e">Release 2.5.3</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-08-30T01:07:02Z">Aug 30, 2019</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-f433b1a53f5b830a205fd2df78e2b34974656c7b" itemprop="license" href="/IBM/ibm-cos-sdk-python/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Release 2.5.0" class="link-gray" href="/IBM/ibm-cos-sdk-python/commit/749710ca300a6bd3c145a43d8f1050d74d2a9c47">Release 2.5.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-05-28T15:45:42Z">May 28, 2019</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="MANIFEST.in" id="97c91a104c431d0c365565d3ac03ac13-23f0df1a19182ef593502a144cee1b99ed701d48" href="/IBM/ibm-cos-sdk-python/blob/master/MANIFEST.in">MANIFEST.in</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Release 2.5.0" class="link-gray" href="/IBM/ibm-cos-sdk-python/commit/749710ca300a6bd3c145a43d8f1050d74d2a9c47">Release 2.5.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-05-28T15:45:42Z">May 28, 2019</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.rst" id="88b99bb28683bd5b7e3a204826ead112-d309140eb8e5b501a40548d2d7af4a112c11c5a0" href="/IBM/ibm-cos-sdk-python/blob/master/README.rst">README.rst</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Release 2.5.2" class="link-gray" href="/IBM/ibm-cos-sdk-python/commit/0d543188b4f2ed1cbe4a6180c20d3dc2544c82fd">Release 2.5.2</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-07-31T14:36:44Z">Jul 31, 2019</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="requirements-docs.txt" id="725f715d783f91b541eb705a670bb7dc-a1156c19fd5a659a89d984c69f8088f5bd5cd5a0" href="/IBM/ibm-cos-sdk-python/blob/master/requirements-docs.txt">requirements-docs.txt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Release 2.5.3" class="link-gray" href="/IBM/ibm-cos-sdk-python/commit/df4ce32461c88775f242b04d0a5d48f76752bf6e">Release 2.5.3</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-08-30T01:07:02Z">Aug 30, 2019</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="requirements.txt" id="b4ef698db8ca845e5845c4618278f29a-e4168dcc0ff14e7443f34e56d1f97f3132a6f7c7" href="/IBM/ibm-cos-sdk-python/blob/master/requirements.txt">requirements.txt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Release 2.3.2" class="link-gray" href="/IBM/ibm-cos-sdk-python/commit/1a3f5004ae1cf73f2609282e8dfe69c282da52fe">Release 2.3.2</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-10-15T21:42:49Z">Oct 15, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="setup.cfg" id="380c6a8ebbbce17d55d50ef17d3cf906-37ffefcb953835978e5ce8678bbb8542591e6f63" href="/IBM/ibm-cos-sdk-python/blob/master/setup.cfg">setup.cfg</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Release 2.5.0" class="link-gray" href="/IBM/ibm-cos-sdk-python/commit/749710ca300a6bd3c145a43d8f1050d74d2a9c47">Release 2.5.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-05-28T15:45:42Z">May 28, 2019</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="setup.py" id="2eeaed663bd0d25b7e608891384b7298-c3b2014d844ff42040c9c2e5c5a2326feac5fc80" href="/IBM/ibm-cos-sdk-python/blob/master/setup.py">setup.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Release 2.5.0" class="link-gray" href="/IBM/ibm-cos-sdk-python/commit/749710ca300a6bd3c145a43d8f1050d74d2a9c47">Release 2.5.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-05-28T15:45:42Z">May 28, 2019</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="tox.ini" id="b91f3d5bd63fcd17221b267e851608e8-86d608b87a1312c3afc74a3c003a8a0b52453395" href="/IBM/ibm-cos-sdk-python/blob/master/tox.ini">tox.ini</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Release 2.3.2" class="link-gray" href="/IBM/ibm-cos-sdk-python/commit/1a3f5004ae1cf73f2609282e8dfe69c282da52fe">Release 2.3.2</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-10-15T21:42:49Z">Oct 15, 2018</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="Box Box--condensed instapaper_body rst js-code-block-container">
+    <div class="Box-header d-flex flex-items-center flex-justify-between px-2">
+      <h3 class="Box-title pr-3">
+        <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+        README.rst
+      </h3>
+    </div>
+      <div class="Box-body">
+        <article class="markdown-body entry-content p-5" itemprop="text"><h1><a id="user-content-ibm-cloud-object-storage---python-sdk" class="anchor" aria-hidden="true" href="#ibm-cloud-object-storage---python-sdk"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>IBM Cloud Object Storage - Python SDK</h1>
+<p>This package allows Python developers to write software that interacts
+with <a href="https://cloud.ibm.com/docs/services/cloud-object-storage/about-cos.html" rel="nofollow">IBM Cloud Object
+Storage</a>.
+It is a fork of the <a href="https://github.com/boto/boto3">boto3 library</a>
+and can stand as a drop-in replacement if the application needs to connect to object storage using
+an S3-like API and does not make use of other AWS services.</p>
+<a name="user-content-documentation"></a>
+<h2><a id="user-content-documentation" class="anchor" aria-hidden="true" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Documentation</h2>
+<ul>
+<li><a href="https://cloud.ibm.com/docs/services/cloud-object-storage/getting-started.html" rel="nofollow">Core documentation for IBM
+COS</a></li>
+<li><a href="https://ibm.github.io/ibm-cos-sdk-python" rel="nofollow">Python API reference
+documentation</a></li>
+<li><a href="https://cloud.ibm.com/docs/services/cloud-object-storage/api-reference/about-api.html" rel="nofollow">REST API reference
+documentation</a></li>
+</ul>
+<p>For release notes, see the <a href="/IBM/ibm-cos-sdk-python/blob/master/CHANGELOG.rst">CHANGELOG</a>.</p>
+<ul>
+<li><a href="#building-from-source">Building from source</a></li>
+<li><a href="#getting-help">Getting help</a></li>
+</ul>
+<a name="user-content-quick-start"></a>
+<h2><a id="user-content-quick-start" class="anchor" aria-hidden="true" href="#quick-start"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Quick start</h2>
+<p>You'll need: * An instance of COS. * An API key from <a href="https://cloud.ibm.com/docs/iam/users_roles.html" rel="nofollow">IBM Cloud
+Identity and Access
+Management</a> with at
+least <code>Writer</code> permissions. * The ID of the instance of COS that you
+are working with. * Token acquisition endpoint * Service endpoint</p>
+<p>These values can be found in the IBM Cloud Console by <a href="https://cloud.ibm.com/docs/services/cloud-object-storage/iam/service-credentials.html" rel="nofollow">generating a
+'service
+credential'</a>.</p>
+<a name="user-content-using-python"></a>
+<h2><a id="user-content-using-python" class="anchor" aria-hidden="true" href="#using-python"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using Python</h2>
+<p>Use of the Python SDK and example code can be found
+<a href="https://cloud.ibm.com/docs/services/cloud-object-storage/libraries/python.html#using-python" rel="nofollow">here</a>.</p>
+<a name="user-content-using-a-service-credential"></a>
+<h2><a id="user-content-using-a-service-credential" class="anchor" aria-hidden="true" href="#using-a-service-credential"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using a Service Credential</h2>
+<p>You can source credentials directly from a <a href="https://cloud.ibm.com/docs/services/cloud-object-storage/iam/service-credentials.html" rel="nofollow">Service
+Credential</a>
+JSON document generated in the IBM Cloud console saved to
+<code>~/.bluemix/cos_credentials</code>. The SDK will automatically load these
+providing you have not explicitly set other credentials during client
+creation. If the Service Credential contain <a href="https://cloud.ibm.com/docs/services/cloud-object-storage/hmac/credentials.html" rel="nofollow">HMAC
+keys</a>
+the client will use those and authenticate using a signature, otherwise
+the client will use the provided API key to authenticate using bearer
+tokens.</p>
+<a name="user-content-aspera-high-speed-transfer"></a>
+<h2><a id="user-content-aspera-high-speed-transfer" class="anchor" aria-hidden="true" href="#aspera-high-speed-transfer"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aspera high-speed transfer</h2>
+<p>It is now possible to use the IBM Aspera high-speed transfer service as
+an alternative method to managed transfers of larger objects. The Aspera
+high-speed transfer service is especially effective across long
+distances or in environments with high rates of packet loss. For more
+details, check out the <a href="https://cloud.ibm.com/docs/services/cloud-object-storage/basics/aspera.html#using-libraries-and-sdks" rel="nofollow">IBM Cloud
+documentation</a>.</p>
+<a name="user-content-archive-tier-support"></a>
+<h2><a id="user-content-archive-tier-support" class="anchor" aria-hidden="true" href="#archive-tier-support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Archive Tier Support</h2>
+<p>You can automatically archive objects after a specified length of time
+or after a specified date. Once archived, a temporary copy of an object
+can be restored for access as needed. Restore time may take up to 15
+hours.</p>
+<p>An archive policy is set at the bucket level by calling the
+<code>put_bucket_lifecycle_configuration</code> method on a client instance. A
+newly added or modified archive policy applies to new objects uploaded
+and does not affect existing objects. For more detail, <a href="https://cloud.ibm.com/docs/services/cloud-object-storage/libraries/python.html#python" rel="nofollow">see the
+documentation</a>.</p>
+<a name="user-content-immutable-object-storage"></a>
+<h2><a id="user-content-immutable-object-storage" class="anchor" aria-hidden="true" href="#immutable-object-storage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Immutable Object Storage</h2>
+<p>Users can configure buckets with an Immutable Object Storage policy to
+prevent objects from being modified or deleted for a defined period of
+time. The retention period can be specified on a per-object basis, or
+objects can inherit a default retention period set on the bucket. It is
+also possible to set open-ended and permanent retention periods.
+Immutable Object Storage meets the rules set forth by the SEC governing
+record retention, and IBM Cloud administrators are unable to bypass
+these restrictions. For more detail, <a href="https://cloud.ibm.com/docs/services/cloud-object-storage/libraries/python.html#python" rel="nofollow">see the IBM Cloud
+documentation</a>.</p>
+<p>Note: Immutable Object Storage does not support Aspera transfers via the
+SDK to upload objects or directories at this stage.</p>
+<a name="user-content-building-from-source"></a>
+<h2><a id="user-content-building-from-source" class="anchor" aria-hidden="true" href="#building-from-source"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Building from source</h2>
+<p>Assuming that you have Python and <code>virtualenv</code> installed, set up your
+environment and install the required dependencies like this instead of
+the <code>pip install ibm-cos-sdk</code> defined above:</p>
+<div class="highlight highlight-source-shell"><pre>$ git clone https://github.com/ibm/ibm-cos-sdk-python.git
+$ <span class="pl-c1">cd</span> ibm-cos-sdk-python
+$ virtualenv venv
+...
+$ <span class="pl-c1">.</span> venv/bin/activate
+$ pip install -r requirements.txt
+$ pip install -e <span class="pl-c1">.</span></pre></div>
+<a name="user-content-getting-help"></a>
+<h2><a id="user-content-getting-help" class="anchor" aria-hidden="true" href="#getting-help"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Getting Help</h2>
+<p>Feel free to use GitHub issues for tracking bugs and feature requests,
+but for help please use one of the following resources:</p>
+<ul>
+<li>Read a quick start guide in <a href="https://cloud.ibm.com/docs/services/cloud-object-storage/libraries/python.html#python" rel="nofollow">IBM Cloud
+Docs</a>.</li>
+<li>Ask a question on <a href="https://stackoverflow.com/" rel="nofollow">Stack Overflow</a> and
+tag it with <code>ibm</code> and <code>object-storage</code>.</li>
+<li>Open a support ticket with <a href="https://cloud.ibm.com/unifiedsupport/supportcenter/" rel="nofollow">IBM Cloud
+Support</a></li>
+<li>If it turns out that you may have found a bug, please <a href="https://github.com/ibm/ibm-cos-sdk-python/issues/new">open an
+issue</a>.</li>
+</ul>
+<a name="user-content-license"></a>
+<h2><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<p>This SDK is distributed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" rel="nofollow">Apache License, Version
+2.0</a>, see LICENSE.txt and
+NOTICE.txt for more information.</p>
+
+</article>
+      </div>
+  </div>
+
+
+
+  </div>
+</div>
+
+    </main>
+  </div>
+  
+
+  </div>
+
+        
+<div class="footer container-lg width-full px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2019 <span title="0.33842s from unicorn-6987fcc54d-k5f76">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+        <li class="mr-3"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" integrity="sha512-Je7fGgEmtunQFlDhJ4O7EE3BBWaEECwcV5pgJ8575J90IEjwOq7RK6kdhlH4K1hyH4KbKfGH7ev+TRn3jKtf5Q==" type="application/javascript" src="https://github.githubassets.com/assets/compat-bootstrap-009a5e0b.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-6ds1nmSieMZVJUz/Lg1/PhdizfysNwmo+T94e9p4BT3M6jtP8m1Hi/Slym0TJQpUW/rjhG8FWutX5JkiKF69CQ==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-8b4af415.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-i7Fnzhn9vNYtInnoi+GE4HOgQt1Wj/GUXZg4zDMJuUYp2wkswEwg9mpT2EA6caO5OU+yLyNxBxX3ZRp68snVLA==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-b012f3cd.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner" hidden
+    >
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+  <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
+
+  </body>
+</html>
+
